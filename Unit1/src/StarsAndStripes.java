@@ -18,21 +18,38 @@ public class StarsAndStripes
 
    public void printTwentyStars()
    {
+	   
+	  out.println("********************");
+	  
    }
 
    public void printTwentyDashes()
    {
+	   out.println("--------------------");
    }
 
    public void printTwoBlankLines()
    {
+	   out.println(" ");
+	   out.println(" ");
    }
    
    public void printASmallBox()
    {	
+	   out.println(" ______");
+	   out.println("|      |");
+	   out.println("|______|");
    }
  
    public void printABigBox()
    { 	
+	   out.println(" _______________");
+	   out.println("|               |");
+	   out.println("|               |");
+	   out.println("|               |");
+	   out.println("|               |");
+	   out.println("|               |");
+	   out.println("|               |");
+	   out.println("|_______________|");
    }   
 }

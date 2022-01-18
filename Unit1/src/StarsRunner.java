@@ -15,11 +15,46 @@ public class StarsRunner
       //instantiate a StarsAndStripes object
       StarsAndStripes thing = new StarsAndStripes();
       //call the methods needed to make the patterns on the word document
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     
+     thing.printTwoBlankLines();
+
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     
+     thing.printTwentyDashes();
+     thing.printTwentyDashes();
+     
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+     thing.printTwentyStars();
+     thing.printTwentyDashes();
+      
+      
+     thing.printTwoBlankLines();
+      
+     System.out.println("My own pattern for extra credit is shown below.");
+      
       thing.printTwentyStars();
       thing.printTwentyDashes();
-      thing.printTwoBlankLines();
       thing.printASmallBox();
       thing.printABigBox();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
+      thing.printTwentyStars();
+      thing.printTwentyDashes();
       
    }
 }
