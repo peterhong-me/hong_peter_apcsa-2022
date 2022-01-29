@@ -5,7 +5,7 @@
 
 public class AvgLenRunner
 {
-	public static void main( String args[] )
+	 public static void main( String args[] )
 	{
 		AvgLen s = new AvgLen();
 		
@@ -20,6 +20,6 @@ public class AvgLenRunner
 		System.out.println( s.go( "wow", "eplus" ) ) ;
 		System.out.println( s.go( "catsand" , "aplusdogsaplus" ) ) ;
 		System.out.println( s.go( "7", "77777" ) ) ;
-		
+		 
 	}
-}
+} 
