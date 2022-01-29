@@ -20,7 +20,7 @@ public class VowelsRunner
 		System.out.println(  s.go(  "catsandaplusdogsaplus###")    );
 		System.out.println(  s.go(  "7")    );
 		System.out.println(  s.go(  "a")    );
-		System.out.println(  s.go(  "E")    );
+		System.out.println(  s.go(  "E")    ); 
 		System.out.println(  s.go(  "9AEIOUaeiou8")    );
 	}
 }
