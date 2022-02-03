@@ -8,6 +8,16 @@ public class WordRunner
 {
 	public static void main ( String[] args )
 	{
-		//add test cases		
+		Word test = new Word();
+		
+		test.setString("Apple");
+		System.out.println(test);
+		
+		test.setString("Goat");
+		System.out.println(test);
+		
+		test.setString("Band");
+		System.out.println(test);
+		
 	}
 }

@@ -8,7 +8,19 @@ public class LetterRemoverRunner
 {
 	public static void main( String args[] )
 	{
-		//add test cases		
-											
+		LetterRemover test = new LetterRemover();
+		
+		test.setRemover("Hello World", 'o');
+		test.removeLetters();
+		System.out.println(test);
+	
+		test.setRemover("Peter Piper Picked a Peck of Picked Peppers", 'P');
+		test.removeLetters();
+		System.out.println(test);
+		
+		test.setRemover("Daniel the Dude Duck", 'D');
+		test.removeLetters();
+		System.out.println(test);
+		
 	}
 }
