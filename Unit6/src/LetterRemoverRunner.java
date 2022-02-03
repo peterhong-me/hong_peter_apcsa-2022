@@ -18,7 +18,7 @@ public class LetterRemoverRunner
 		test.removeLetters();
 		System.out.println(test);
 		
-		test.setRemover("Daniel the Dude Duck", 'D');
+		test.setRemover("I am Sam I am", 'A');
 		test.removeLetters();
 		System.out.println(test);
 		
