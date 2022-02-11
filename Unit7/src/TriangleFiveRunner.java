@@ -10,16 +10,16 @@ public class TriangleFiveRunner
    {
 	   
 	   TriangleFive test = new TriangleFive();
+	   test.setLetter('C');
+	   test.setAmount(4);
+	   System.out.println(test);
+	   
 	   test.setLetter('A');
-	   test.setAmount(2);
+	   test.setAmount(5);
 	   System.out.println(test);
 	   
 	   test.setLetter('B');
-	   test.setAmount(6);
-	   System.out.println(test);
-	   
-	   test.setLetter('C');
-	   test.setAmount(6);
+	   test.setAmount(7);
 	   System.out.println(test);
 	   
 	   test.setLetter('X');
