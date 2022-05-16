@@ -1,5 +1,3 @@
-package classes;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import javax.swing.ImageIcon;
@@ -54,7 +52,11 @@ public class SimplePicture implements DigitalPicture
   * a width of 200 and a height of 100 that is all white.
   * A no-argument constructor must be given in order for a class to
   * be able to be subclassed.  By default all subclasses will implicitly
+<<<<<<< HEAD
   * call this in their parent's no-argument constructor unless a 
+=======
+  * call this in their parent's no argument constructor unless a 
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
   * different call to super() is explicitly made as the first line 
   * of code in a constructor.
   */
@@ -141,7 +143,11 @@ public class SimplePicture implements DigitalPicture
  
  /**
   * Method to get the extension for this picture
+<<<<<<< HEAD
   * @return the extension (jpg, bmp, giff, etc)
+=======
+  * @return the extendsion (jpg, bmp, giff, etc)
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
   */
  public String getExtension() { return extension; }
 
@@ -278,7 +284,11 @@ public class SimplePicture implements DigitalPicture
   */
  public void setPictureFrame(PictureFrame pictureFrame)
  {
+<<<<<<< HEAD
    // set this picture object's picture frame to the passed one
+=======
+   // set this picture objects' picture frame to the passed one
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
    this.pictureFrame = pictureFrame;
  }
  
@@ -512,8 +522,13 @@ public class SimplePicture implements DigitalPicture
  /**
   * Method to draw a message as a string on the buffered image 
   * @param message the message to draw on the buffered image
+<<<<<<< HEAD
   * @param xPos  the x coordinate of the leftmost point of the string 
   * @param yPos  the y coordinate of the bottom of the string  
+=======
+  * @param xPos  the leftmost point of the string in x 
+  * @param yPos  the bottom of the string in y
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
   */
  public void addMessage(String message, int xPos, int yPos)
  {
@@ -544,6 +559,7 @@ public class SimplePicture implements DigitalPicture
  
  /**
    * Method to create a new picture by scaling the current
+<<<<<<< HEAD
    * picture by the given x and y factors
    * @param xFactor the amount to scale in x
    * @param yFactor the amount to scale in y
@@ -558,6 +574,22 @@ public class SimplePicture implements DigitalPicture
     // create a new picture object that is the right size
     Picture result = new Picture((int) (getWidth() * xFactor),
                                  (int) (getHeight() * yFactor));
+=======
+   * picture by the given 
+   * @param rFactor the amount to scale in the height (rows)
+   * @param cFactor the amount to scale in the width (columns)
+   * @return the resulting picture
+   */
+  public Picture scale(double rFactor, double cFactor)
+  {
+    // set up the scale tranform
+    AffineTransform scaleTransform = new AffineTransform();
+    scaleTransform.scale(cFactor,rFactor);
+    
+    // create a new picture object that is the right size
+    Picture result = new Picture((int) (getHeight() * rFactor),
+                                 (int) (getWidth() * cFactor));
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
     
     // get the graphics 2d object to draw on the result
     Graphics graphics = result.getGraphics();
@@ -578,7 +610,11 @@ public class SimplePicture implements DigitalPicture
    */
   public Picture getPictureWithWidth(int width)
   {
+<<<<<<< HEAD
     // set up the scale transform
+=======
+    // set up the scale tranform
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
     double xFactor = (double) width / this.getWidth();
     Picture result = scale(xFactor,xFactor);
     return result;
@@ -593,7 +629,11 @@ public class SimplePicture implements DigitalPicture
    */
   public Picture getPictureWithHeight(int height)
   {
+<<<<<<< HEAD
     // set up the scale transform
+=======
+    // set up the scale tranform
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
     double yFactor = (double) height / this.getHeight();
     Picture result = scale(yFactor,yFactor);
     return result;
@@ -649,7 +689,11 @@ public class SimplePicture implements DigitalPicture
    if (posDot >= 0)
        extension = fileName.substring(posDot + 1);
    
+<<<<<<< HEAD
    // write the contents of the buffered image to the file
+=======
+   // write the contents of the buffered image to the file as jpeg
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
    ImageIO.write(bufferedImage, extension, file);
      
  }
@@ -750,4 +794,8 @@ public class SimplePicture implements DigitalPicture
    return output;
  }
 
+<<<<<<< HEAD
 } // end of SimplePicture class
+=======
+} // end of SimplePicture class
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257

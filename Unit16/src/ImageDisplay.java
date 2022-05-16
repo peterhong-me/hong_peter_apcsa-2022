@@ -1,5 +1,3 @@
-package classes;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
@@ -215,4 +213,8 @@ public class ImageDisplay extends JPanel implements Scrollable
     }
   }
   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257

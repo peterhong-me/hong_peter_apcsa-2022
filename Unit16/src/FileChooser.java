@@ -1,5 +1,3 @@
-package classes;
-
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import java.util.Properties;
@@ -123,5 +121,10 @@ public class FileChooser
       
       return directory;
   }
+<<<<<<< HEAD
   
 }
+=======
+}
+  
+>>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
