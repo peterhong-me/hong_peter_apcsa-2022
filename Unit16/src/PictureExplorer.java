@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -803,13 +800,6 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
    */
   public static void main( String args[])
   {
-<<<<<<< HEAD
-    Picture pix = new Picture("beach.jpg");
-    pix.explore();
-  }
-  
-}
-=======
 	//Picture pix = new Picture("beach.jpg");
 	//Picture pix = new Picture("Narutos_selfie_344_3543114b.jpg");
 	//Picture pix = new Picture("snowman.jpg");
@@ -818,4 +808,3 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
   }
   
 }
->>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257

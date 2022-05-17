@@ -213,8 +213,4 @@ public class ImageDisplay extends JPanel implements Scrollable
     }
   }
   
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b0472f1413b5676ef3d2511b97c7b83162cb3257

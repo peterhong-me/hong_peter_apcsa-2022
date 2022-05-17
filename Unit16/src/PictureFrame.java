@@ -171,5 +171,4 @@ public class PictureFrame
     // make the frame visible
     frame.setVisible(true);
   }
-  
 }
