@@ -850,4 +850,5 @@ public class Picture extends SimplePicture
         beach.zeroBlue();
         beach.explore();
     }
+
 }
