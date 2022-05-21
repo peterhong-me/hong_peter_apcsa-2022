@@ -235,7 +235,15 @@ public class PictureTester
             System.out.println( avgArray[i] );
         }
     }
-
+    
+    public static void testRectangle()
+    {
+        Picture a = new Picture( "wall.jpg");
+        a.rectangle( 250, 200, 50, 10);
+        a.explore();
+    }
+    
+    
     /**
      * Main method for testing. Every class can have a main method in Java
      */
@@ -269,5 +277,6 @@ public class PictureTester
         // testSetRedToHalfValueInTopHalf();
         // testClearBlueOverValue(200);
         // testGetAverageForColumn(0);
+    	
     }
 }

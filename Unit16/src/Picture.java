@@ -839,6 +839,35 @@ public class Picture extends SimplePicture
         return averageArray;
     }
 
+    public void rectangle(int x, int y, int w, int h)
+    {
+      Pixel[][] pixels = this.getPixels2D();
+      Pixel topleftPixel = null;
+      for (int row = x; row < x + w; row++)
+      {
+        for (int col = y; col < y + h; col++)
+        {
+//          if ( row > 0 && col > 0  && row < pixels.length-1  &&  col < pixels[0].length-1 )
+//          {
+//            int val = 0;
+//            topleftPixel = pixels[row-1][col-1];
+//
+//            val = (pixels[row][col].getRed() - topleftPixel.getRed()) /2 + pixels[row][col].getRed();
+//            if (val > 255)
+//            {
+//              val = 255;
+//            }
+//            if (val < 0)
+//            {
+//              val = 0;
+//            }
+            pixels[row][col].setBlue(0);
+            pixels[row][col].setGreen(0);
+            pixels[row][col].setRed(255);
+          }
+        }
+      }
+    
 
     /*
      * Main method for testing - each class in Java can have a main method
