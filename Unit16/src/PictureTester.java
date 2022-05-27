@@ -272,7 +272,7 @@ public class PictureTester
         // testEdgeDetection();
         // testEdgeDetection2();
         // testChromakey();
-        // testEncodeAndDecode();
+        testEncodeAndDecode();
         // testGetCountRedOverValue(250);
         // testSetRedToHalfValueInTopHalf();
         // testClearBlueOverValue(200);
